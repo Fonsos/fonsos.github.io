@@ -1,6 +1,7 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   font-family: 'Roboto',courier, sans-serif;
+  padding-top: 50px;
 }
 
 .navbar-brand {
@@ -11,26 +12,27 @@ ul.nav {
 	font-size: 15px;
 }
 
-.jumbotron img {
-	margin: 50px 20px;
-}
-
 .jumbotron {
 	text-align: center;
 	background-image: url(../images/fondo.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	color: white;
+	margin-bottom: 0px;
 }
 
-.jumbotron h2 {
-	margin-top: 0px;
+.jumbotron img {
+	margin: 50px 20px;
+}
+
+.jumbotron h2 {	
+	padding: 0px 70px;
 }
 
 .jumbotron p {
-	margin-bottom: 1	0px;
+	margin-bottom: 10px;
 	font-weight: 100;
-	padding: 0 50px;
+	padding: 0 70px;
 }
 
 .jumbotron a {
@@ -54,8 +56,7 @@ ul.nav {
 .homepage {
 	text-align: center;
 	background-color: #E5E5E5;
-	padding: 0px;
-
+	padding:50px;
 }
 
 .homepage h1{
@@ -79,6 +80,7 @@ ul.nav {
 
 .contact {
 	text-align: center;
+	padding: 50px;
 }
 
 .contact h1 {
@@ -108,7 +110,7 @@ ul.nav {
 }
 
 .foot {
-	padding-top: 100px;
+	padding-top: 50px;
 	padding-bottom: 30px;
 	background-color:#E5E5E5 ;
 }
