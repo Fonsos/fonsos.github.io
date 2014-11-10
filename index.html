@@ -38,7 +38,8 @@
 
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar-collapse" data-offset="200">
+
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -52,11 +53,11 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#proyects">PROYECTOS</a></li>
+            <li><a href="#proyects">PROYECTOS</a></li>
             <li><a href="#contact">CONTACTO</a></li>
             <li><a href="http://blog.fonsos.com">BLOG</a></li>
-            <li class="dropdown open">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-hidden="true">IDIOMA<span class="caret"></span></a>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">IDIOMA<span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                   <li class="disabled"><a href="#">ESPAÑOL</a></li>
                   <li class="disabled"><a href="#"><s>ENGLISH</s></a></li>
@@ -66,8 +67,8 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-    <div  class="jumbotron">
-      <div id="home" class="container">
+    <div id="home" class="jumbotron">
+      <div class="container">
         <div class="alert alert-warning alert-dismissible" role="alert">
           <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
           <strong>ATENCIÓN</strong></br>Sitio en construcción, aún hay cosas que terminar y mejorar. Gracias por su paciencia. 
@@ -95,7 +96,7 @@
             <i class="fa fa-files-o fa-stack-1x fa-inverse"></i>
           </span>
           <h3>Desarrollo de Productos</h3>
-          <p>Distintos trabajos que he hecho a lo largo de la carrera o en mis ratos libres sobre objetos que se pueden desarrollar</p>
+          <p>Distintos trabajos que he hecho a lo largo de la carrera o en mis ratos libres sobre objetos.</p>
           <p><a class="btn btn-default" href="#" role="button" disabled="disabled">Ver los proyectos</a></p>
         </div>
         <div class="col-md-4">
@@ -221,8 +222,12 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+    
+    <!--Personals scripts-->
     <script src="js/tab.js"></script>
     <script src="js/popover.js"></script>
+    <script src="js/smoth-scroll.js"></script>
+
     <!--Google Analytics Scrpt-->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

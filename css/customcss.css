@@ -18,6 +18,7 @@ ul.nav {
 	background-image: url(../images/fondo.jpg);
 	background-repeat: no-repeat;
 	color: white;
+	padding-bottom: 1	00px;
 	margin-bottom: 0px;
 }
 
@@ -57,7 +58,7 @@ ul.nav {
 .homepage {
 	text-align: center;
 	background-color: #E5E5E5;
-	padding:50px;
+	padding:70px 0px 90px 0px;
 }
 
 .homepage h1{
