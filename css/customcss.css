@@ -13,6 +13,11 @@ ul.nav {
 	font-size: 15px;
 }
 
+/*#alert {
+	position: fixed;
+	left: 450px;
+}
+*/
 .jumbotron {
 	text-align: center;
 	background-image: url(../images/fondo.jpg);
@@ -103,18 +108,12 @@ ul.nav {
 .contact a:hover {
 	color: #444;
 }
-.contact button{
-	color: #333;
-}
-
-.contact button:hover {
-	color: #444;
-}
 
 .foot {
 	padding-top: 75px;
 	padding-bottom: 35px;
-	background-color:#E5E5E5 ;
+	background-color:#E5E5E5;
+	position: relative;
 }
 
 .foot p {
@@ -130,4 +129,14 @@ ul.nav {
 	color: silver;
 	text-decoration: none;
 	opacity: 0.7;
+}
+
+#back-to-top {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+#back-to-top a{
+	color: #333;
 }
