@@ -6,7 +6,6 @@ body {
 
 .navbar-brand {
 	margin-top: -10px;
-	margin-right: -10px;
 }
 
 ul.nav {
@@ -23,8 +22,9 @@ ul.nav {
 	background-image: url(../images/fondo.jpg);
 	background-repeat: no-repeat;
 	color: white;
-	padding-bottom: 1	00px;
+	padding-bottom: 100px;
 	margin-bottom: 0px;
+	line-height: 1.8em;
 }
 
 .jumbotron img {
@@ -33,7 +33,7 @@ ul.nav {
 
 .jumbotron h2 {	
 	margin-left: 50px;
-	padding-right: 0px;
+	padding-right: 50px;
 }
 
 .jumbotron p {
