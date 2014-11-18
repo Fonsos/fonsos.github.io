@@ -21,6 +21,9 @@ ul.nav {
 	text-align: center;
 	background-image: url(../images/fondo.jpg);
 	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: center;
+	background-position-y: center;
 	color: white;
 	padding-bottom: 100px;
 	margin-bottom: 0px;
