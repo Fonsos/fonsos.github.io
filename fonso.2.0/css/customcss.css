@@ -1,0 +1,145 @@
+	/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 50px;
+}
+
+.navbar-brand {
+	margin-top: -10px;
+}
+
+ul.nav {
+	font-size: 15px;
+}
+
+/*#alert {
+	position: fixed;
+	left: 450px;
+}
+*/
+.jumbotron {
+	text-align: center;
+	background-image: url(../images/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: center;
+	background-position-y: center;
+	color: white;
+	padding-bottom: 100px;
+	margin-bottom: 0px;
+	line-height: 1.8em;
+}
+
+.jumbotron img {
+	margin: 50px 20px;
+}
+
+.jumbotron h2 {	
+	margin-left: 50px;
+	padding-right: 50px;
+}
+
+.jumbotron p {
+	margin-bottom: 10px;
+	font-weight: 100;
+	padding: 0 50px;
+}
+
+.jumbotron a {
+	color: lavender;
+}
+
+.jumbotron a:hover {
+	color: silver;
+	text-decoration: none;
+	opacity: 0.7;
+}
+
+.btn-lg {
+	font-size: 36px;
+}
+
+.col-md-4 p {
+	margin: 50px
+}
+
+.homepage {
+	text-align: center;
+	background-color: #E5E5E5;
+	padding:70px 0px 90px 0px;
+}
+
+.homepage h1 {
+	text-transform: uppercase;
+	font-size: 32px;
+}
+
+.homepage h3 {
+	text-transform: uppercase;
+}
+.homepage p {
+	font-size: 18px;
+}
+
+.homepage hr {
+	border-top: 1px solid ;
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px; 
+}
+
+.contact {
+	text-align: center;
+	padding: 50px;
+}
+
+.contact h1 {
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+.contact hr {
+	border-top: 1px solid ;
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px; 
+}
+.contact a{
+	color: #333;
+}
+
+.contact a:hover {
+	color: #444;
+}
+
+.foot {
+	padding-top: 75px;
+	padding-bottom: 35px;
+	background-color:#E5E5E5;
+	position: relative;
+}
+
+.foot p {
+	text-align: center;
+	font-size: 12px;
+}
+
+.foot a {
+	color: SlateGray;
+}
+
+.foot a:hover {
+	color: silver;
+	text-decoration: none;
+	opacity: 0.7;
+}
+
+#back-to-top {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+#back-to-top a{
+	color: #333;
+}
