@@ -52,7 +52,8 @@ ul.nav {
 }
 
 .imagecircle {
-	background: #E5E5E5;
+	background: #000
+;
 	border-radius: 150px;
 	margin: 10px;
 }
