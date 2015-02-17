@@ -414,7 +414,7 @@ ul.ws-submenu li.active a {
   text-decoration: none;
   box-shadow: 0 1px 0 #fff inset;
   background: #fafafa;
-  margin: 0;
+  margin-left: 0;
   border: 1px solid #D0D0D0;
 }
 
@@ -519,7 +519,7 @@ html {
   .option-set.pull-right {float:none !important;}
   .option-set a.btn {width:100%;}
   .option-set.list-inline > li {display: block;padding:0;margin-bottom: 7px;}
-  
+  .wsp-title-toggle{font-size: left}
 
 
 .service-block .service-block-icon {width:100px;min-height:100px;}
