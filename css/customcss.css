@@ -494,8 +494,64 @@ ul.ws-submenu li.active a {
   opacity: 1;
 }
 
-/* FRONTEND CSS
+@media only screen and (max-width: 767px) {
+  .element {
+    width: 100%;
+  }
+  .element.widthx2 {
+    width: 100%;
+  }
+  .left, .right {
+    float:none;
+  }
+
+
+}/* FRONTEND CSS
 *********************************************/
 html {
   overflow-y: scroll;
+}
+
+/* Media Queries
+*********************************************/
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .option-set.pull-right {float:none !important;}
+  .option-set a.btn {width:100%;}
+  .option-set.list-inline > li {display: block;padding:0;margin-bottom: 7px;}
+  
+
+
+.service-block .service-block-icon {width:100px;min-height:100px;}
+.service-block .service-block-icon i {color: #fff;line-height: 100px;}
+.service-block .service-block-content { padding: 20px 20px 20px 120px; min-height:100px;}
+  
+}
+
+@media (max-width: 991px) {
+
+  .titlewrapper h1 {margin:20px 0;display:block;text-align:center;}
+  .titlewrapper ol.breadcrumb {margin:20px 0;display:block;text-align:center;float:none !important;padding-top:20px;border-top:1px dotted #808080;}
+
+}
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  body {padding:0;}
+  .container {padding:0 20px;}
+  .pull-left, .pull-right {float:none;}
+  .element {width:100%;}
+  
+  ul.all-extensions li {width:100%;}
+
+  
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  ul.all-extensions li {width:50%;}
+}
+/* Large desktop */
+@media (min-width: 1200px) {
+  
 }
