@@ -222,15 +222,15 @@ img.wsp-main-image {
 
 .isotope,
 .isotope .isotope-item {
-          transition-duration: 800ms;
+		  transition-duration: 800ms;
 }
 
 .isotope {
-          transition-property: height, width;
+		  transition-property: height, width;
 }
 
 .isotope .isotope-item {
-          transition-property: transform, opacity;
+		  transition-property: transform, opacity;
 }
 
 .item-page .btn-group.pull-right {
@@ -285,6 +285,11 @@ img.wsp-main-image {
   margin: 20px auto;
   max-width: 1240px;
   box-shadow:0 3px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.modal {
+	overflow: auto;
+	color: #333;
 }
 
 .navbar-brand {
@@ -496,13 +501,13 @@ ul.ws-submenu li.active a {
 
 @media only screen and (max-width: 767px) {
   .element {
-    width: 100%;
+	width: 100%;
   }
   .element.widthx2 {
-    width: 100%;
+	width: 100%;
   }
   .left, .right {
-    float:none;
+	float:none;
   }
 
 
