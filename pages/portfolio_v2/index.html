@@ -25,12 +25,12 @@
 			<link href="../../css/customcss.css" rel="stylesheet">
 
 		<!-- Scripts-->
-		<script src="js/jquery.min.js" type="text/javascript"></script>
-		<script src="js/jquery-migrate.min.js" type="text/javascript"></script>
-		<script src="../js/bootstrap.min.js" type="text/javascript"></script>
-		<script src="js/view.min.js" type="text/javascript"></script>
-		<script src="js/lightbox.min.js" type="text/javascript"></script>
-		<script src="./Shuffle Adaptive Demo_files/modernizr.custom.min.js"></script>
+		<script src="../../js/jquery.min.js" type="text/javascript"></script>
+		<script src="../../js/jquery-migrate.min.js" type="text/javascript"></script>
+		<script src="../../js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="../../js/view.min.js" type="text/javascript"></script>
+		<script src="../../js/lightbox.min.js" type="text/javascript"></script>
+		<script src="js/modernizr.custom.min.js"></script>
 
 		<!--[if lte IE 7]>
 			<script type="text/javascript">window.location = "http://www.ws-theme.com/templates/wstheme2013/ie/index.html";</script>
@@ -87,122 +87,152 @@
 							<div class="col-md-12">
 								<div class="item-page">
 
-									<section class="gallery container">
-									 <div class="filter-options row">
-										<div class="span6">
-											<div class="filter-group filter--colors js-colors">
-												<h5 class="filter__label">Colors</h5>
-												<button class="btn btn--go" data-filter-value="green"><span class="visuallyhidden">Green</span></button>
-												<button class="btn btn--primary" data-filter-value="blue"><span class="visuallyhidden">Blue</span></button>
-												<button class="btn btn--danger" data-filter-value="red"><span class="visuallyhidden">Red</span></button>
-												<button class="btn btn--warning" data-filter-value="orange"><span class="visuallyhidden">Orange</span></button>
-											</div>
-										</div>
-										<div class="span6">
-											<div class="filter-group filter--shapes js-shapes">
-												<h5 class="filter-group__label">Shapes</h5>
-												<span class="ib">
-													<input type="checkbox" value="circle" id="cb-circle"> <label for="cb-circle">Circle</label>
-												</span>
-												<span class="ib">
-													<input type="checkbox" value="diamond" id="cb-diamond"> <label for="cb-diamond">Diamond</label>
-												</span>
-												<span class="ib">
-													<input type="checkbox" value="square" id="cb-square"> <label for="cb-square">Square</label>
-												</span>
-												<span class="ib">
-													<input type="checkbox" value="triangle" id="cb-triangle"> <label for="cb-triangle">Triangle</label>
-												</span>
-											</div>
-										</div>
-									</div>
+<section class="gallery container">
 
-	<div class="shape-up js-shuffle shuffle" style="height: 840px; transition: height 250ms cubic-bezier(0.165, 0.84, 0.44, 1); -webkit-transition: height 250ms cubic-bezier(0.165, 0.84, 0.44, 1);">
-		
-		<div class="span3 shape shape--circle shape--blue shuffle-item filtered" data-shape="circle" data-color="blue" style="position: absolute; top: 0px; left: 0px; visibility: visible; transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1); -webkit-transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1);">
-			<div class="keep-ratio">
-				<div class="shape__inner">
-					<div class="shape__space">
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="span3 shape shape--diamond shape--red shuffle-item filtered" data-shape="diamond" data-color="red" style="position: absolute; top: 0px; left: 0px; visibility: visible; opacity: 1; transform: translate3d(300px, 0px, 0px) scale3d(1, 1, 1); transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1); -webkit-transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1);">
-			<div class="keep-ratio">
-				<div class="shape__inner">
-					<div class="shape__space">
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="span3 shape shape--triangle shape--green shuffle-item filtered" data-shape="triangle" data-color="green" style="position: absolute; top: 0px; left: 0px; visibility: visible; opacity: 1; transform: translate3d(600px, 0px, 0px) scale3d(1, 1, 1); transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1); -webkit-transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1);">
-			<div class="keep-ratio">
-				<div class="shape__inner">
-					<div class="shape__space">
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="span3 shape shape--triangle shape--orange shuffle-item filtered" data-shape="triangle" data-color="orange" style="position: absolute; top: 0px; left: 0px; visibility: visible; opacity: 1; transform: translate3d(900px, 0px, 0px) scale3d(1, 1, 1); transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1); -webkit-transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1);">
-			<div class="keep-ratio">
-				<div class="shape__inner">
-					<div class="shape__space">
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="span3 shape shape--square shape--red shuffle-item filtered" data-shape="square" data-color="red" style="position: absolute; top: 0px; left: 0px; visibility: visible; opacity: 1; transform: translate3d(0px, 280px, 0px) scale3d(1, 1, 1); transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1); -webkit-transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1);">
-			<div class="keep-ratio">
-				<div class="shape__inner">
-					<div class="shape__space">
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="span3 shape shape--diamond shape--green shuffle-item filtered" data-shape="diamond" data-color="green" style="position: absolute; top: 0px; left: 0px; visibility: visible; opacity: 1; transform: translate3d(300px, 280px, 0px) scale3d(1, 1, 1); transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1); -webkit-transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1);">
-			<div class="keep-ratio">
-				<div class="shape__inner">
-					<div class="shape__space">
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="span3 shape shape--circle shape--red shuffle-item filtered" data-shape="circle" data-color="red" style="position: absolute; top: 0px; left: 0px; visibility: visible; opacity: 1; transform: translate3d(600px, 280px, 0px) scale3d(1, 1, 1); transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1); -webkit-transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1);">
-			<div class="keep-ratio">
-				<div class="shape__inner">
-					<div class="shape__space">
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="span3 shape shape--square shape--green shuffle-item filtered" data-shape="square" data-color="green">
-		<img src="../../images/favicon.ico">
-		</div>
-		
-		<div class="span3 shape shape--circle shape--orange shuffle-item filtered" data-shape="circle" data-color="orange">
-			<img src="../../images/favicon.ico">
-		</div>
-		
-		<div class="span3 shape shape--diamond shape--blue shuffle-item filtered" data-shape="diamond" data-color="blue">
-			<img src="../../images/favicon.ico">
-		</div>
-		
-		<div class="span3 shape shape--square shape--orange shuffle-item filtered" data-shape="square" data-color="orange">
-			<img src="../../images/favicon.ico">
-		</div>
-		
-		<div class="span3 shape shape--square shape--blue shuffle-item filtered" data-shape="square" data-color="blue">
-			<img src="../../images/favicon.ico">
-		</div>
-		
-	</div>
+  <div class="filter-options row">
+
+    <div class="span6">
+      <div class="filter-group filter--colors js-colors">
+        <h5 class="filter__label">Colors</h5>
+        <button class="btn btn--go" data-filter-value="green"><span class="visuallyhidden">Green</span></button>
+        <button class="btn btn--primary" data-filter-value="blue"><span class="visuallyhidden">Blue</span></button>
+        <button class="btn btn--danger" data-filter-value="red"><span class="visuallyhidden">Red</span></button>
+        <button class="btn btn--warning" data-filter-value="orange"><span class="visuallyhidden">Orange</span></button>
+      </div>
+    </div>
+
+    <div class="span6">
+      <div class="filter-group filter--shapes js-shapes">
+        <h5 class="filter-group__label">Shapes</h5>
+        <span class="ib">
+          <input type="checkbox" value="circle" id="cb-circle"> <label for="cb-circle">Circle</label>
+        </span>
+        <span class="ib">
+          <input type="checkbox" value="diamond" id="cb-diamond"> <label for="cb-diamond">Diamond</label>
+        </span>
+        <span class="ib">
+          <input type="checkbox" value="square" id="cb-square"> <label for="cb-square">Square</label>
+        </span>
+        <span class="ib">
+          <input type="checkbox" value="triangle" id="cb-triangle"> <label for="cb-triangle">Triangle</label>
+        </span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="shape-up js-shuffle shuffle" style="height: 840px; transition: height 250ms cubic-bezier(0.165, 0.84, 0.44, 1); -webkit-transition: height 250ms cubic-bezier(0.165, 0.84, 0.44, 1);">
+    
+    <div class="span3 shape shape--circle shape--blue shuffle-item filtered" data-shape="circle" data-color="blue">
+      <div class="keep-ratio">
+        <div class="shape__inner">
+          <div class="shape__space">
+          	<img src="sda">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="span3 shape shape--diamond shape--red shuffle-item filtered" data-shape="diamond" data-color="red" style="position: absolute; top: 0px; left: 0px; visibility: visible; opacity: 1; transform: translate3d(300px, 0px, 0px) scale3d(1, 1, 1); transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1); -webkit-transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1);">
+      <div class="keep-ratio">
+        <div class="shape__inner">
+          <div class="shape__space">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="span3 shape shape--triangle shape--green shuffle-item filtered" data-shape="triangle" data-color="green" style="position: absolute; top: 0px; left: 0px; visibility: visible; opacity: 1; transform: translate3d(600px, 0px, 0px) scale3d(1, 1, 1); transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1); -webkit-transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1);">
+      <div class="keep-ratio">
+        <div class="shape__inner">
+          <div class="shape__space">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="span3 shape shape--triangle shape--orange shuffle-item filtered" data-shape="triangle" data-color="orange" style="position: absolute; top: 0px; left: 0px; visibility: visible; opacity: 1; transform: translate3d(900px, 0px, 0px) scale3d(1, 1, 1); transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1); -webkit-transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1);">
+      <div class="keep-ratio">
+        <div class="shape__inner">
+          <div class="shape__space">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="span3 shape shape--square shape--red shuffle-item filtered" data-shape="square" data-color="red" style="position: absolute; top: 0px; left: 0px; visibility: visible; opacity: 1; transform: translate3d(0px, 280px, 0px) scale3d(1, 1, 1); transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1); -webkit-transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1);">
+      <div class="keep-ratio">
+        <div class="shape__inner">
+          <div class="shape__space">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="span3 shape shape--diamond shape--green shuffle-item filtered" data-shape="diamond" data-color="green" style="position: absolute; top: 0px; left: 0px; visibility: visible; opacity: 1; transform: translate3d(300px, 280px, 0px) scale3d(1, 1, 1); transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1); -webkit-transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1);">
+      <div class="keep-ratio">
+        <div class="shape__inner">
+          <div class="shape__space">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="span3 shape shape--circle shape--red shuffle-item filtered" data-shape="circle" data-color="red" style="position: absolute; top: 0px; left: 0px; visibility: visible; opacity: 1; transform: translate3d(600px, 280px, 0px) scale3d(1, 1, 1); transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1); -webkit-transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1);">
+      <div class="keep-ratio">
+        <div class="shape__inner">
+          <div class="shape__space">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="span3 shape shape--square shape--green shuffle-item filtered" data-shape="square" data-color="green" style="position: absolute; top: 0px; left: 0px; visibility: visible; opacity: 1; transform: translate3d(900px, 280px, 0px) scale3d(1, 1, 1); transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1); -webkit-transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1);">
+      <div class="keep-ratio">
+        <div class="shape__inner">
+          <div class="shape__space">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="span3 shape shape--circle shape--orange shuffle-item filtered" data-shape="circle" data-color="orange" style="position: absolute; top: 0px; left: 0px; visibility: visible; opacity: 1; transform: translate3d(0px, 560px, 0px) scale3d(1, 1, 1); transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1); -webkit-transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1);">
+      <div class="keep-ratio">
+        <div class="shape__inner">
+          <div class="shape__space">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="span3 shape shape--diamond shape--blue shuffle-item filtered" data-shape="diamond" data-color="blue" style="position: absolute; top: 0px; left: 0px; visibility: visible; opacity: 1; transform: translate3d(300px, 560px, 0px) scale3d(1, 1, 1); transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1); -webkit-transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1);">
+      <div class="keep-ratio">
+        <div class="shape__inner">
+          <div class="shape__space">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="span3 shape shape--square shape--orange shuffle-item filtered" data-shape="square" data-color="orange" style="position: absolute; top: 0px; left: 0px; visibility: visible; opacity: 1; transform: translate3d(600px, 560px, 0px) scale3d(1, 1, 1); transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1); -webkit-transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1);">
+      <div class="keep-ratio">
+        <div class="shape__inner">
+          <div class="shape__space">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="span3 shape shape--square shape--blue shuffle-item filtered" data-shape="square" data-color="blue" style="position: absolute; top: 0px; left: 0px; visibility: visible; opacity: 1; transform: translate3d(900px, 560px, 0px) scale3d(1, 1, 1); transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1); -webkit-transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1);">
+      <div class="keep-ratio">
+        <div class="shape__inner">
+          <div class="shape__space">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
 
 </section>
 
@@ -233,15 +263,18 @@
 		<script src="../../js/smoth-scroll.js"></script>
 		<script type="text/javascript" id="cookiebanner"src="http://cookiebanner.eu/js/cookiebanner.min.js"></script>
 
-		<!-- Shuffle! -->
-<script src="/js/jquery.shuffle.js"></script>
+<!-- Shuffle! -->
+<script src="js/jquery.shuffle.js"></script>
 
 <script>var site_url = "/Shuffle";</script>
 
-<script src="/js/page.js"></script>
-<script src="/js/evenheights.js"></script>
+<script src="js/page.js"></script>
+<script src="js/evenheights.js"></script>
 
-<script src="/js/gallery.js"></script>
+
+
+
+<script src="js/gallery.js"></script>
 
 
 		<!--Google Analytics Scrpt-->
