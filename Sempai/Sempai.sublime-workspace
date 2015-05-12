@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background-color"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"Side",
+				"side-nav"
+			],
+			[
 				"margin",
 				"marginwidth	Attr"
 			],
@@ -84,10 +100,6 @@
 				"padding-bottom"
 			],
 			[
-				"back",
-				"background-position"
-			],
-			[
 				"a",
 				"background-attachment"
 			],
@@ -164,35 +176,27 @@
 	"buffers":
 	[
 		{
-			"file": "alisy.github.io/index.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7453,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "alisy.github.io/bianco/Bianco by Christiane.html",
-			"settings":
-			{
-				"buffer_size": 47349,
+				"buffer_size": 22460,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "alisy.github.io/css/personal.css",
+			"file": "css/custom.css",
 			"settings":
 			{
-				"buffer_size": 10726,
-				"line_ending": "Windows"
+				"buffer_size": 1544,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "alisy.github.io/bianco/css/screen.css",
+			"file": "css/materialize.css",
 			"settings":
 			{
-				"buffer_size": 34032,
-				"line_ending": "Windows"
+				"buffer_size": 181719,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -236,19 +240,24 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Usuarios/Fonso_s/Documents/GitHub/fonsos.github.io",
-		"/D/Usuarios/Fonso_s/Documents/GitHub/fonsos.github.io/alisy.github.io/bianco/css",
-		"/D/Usuarios/Fonso_s/Documents/GitHub/fonsos.github.io/alisy.github.io/css",
-		"/D/Usuarios/Fonso_s/Documents/GitHub/fonsos.github.io/alisy.github.io/img"
+		"/D/Usuarios/Fonso_s/Documents/GitHub/Sempai",
+		"/D/Usuarios/Fonso_s/Documents/GitHub/Sempai/img",
+		"/D/Usuarios/Fonso_s/Documents/GitHub/Sempai/img/events"
 	],
 	"file_history":
 	[
+		"/D/Usuarios/Fonso_s/Documents/GitHub/Sempai/eds.html",
+		"/D/Usuarios/Fonso_s/Documents/GitHub/Sempai/js/side-nav.js",
+		"/D/Usuarios/Fonso_s/Documents/GitHub/Sempai/css/materialize.min.css",
+		"/D/Usuarios/Fonso_s/Documents/GitHub/Sempai/css/materialize.css",
+		"/D/Usuarios/Fonso_s/Documents/GitHub/Sempai/css/style.css",
 		"/D/Usuarios/Fonso_s/Documents/GitHub/Sempai/index.html",
+		"/D/Usuarios/Fonso_s/Documents/GitHub/fonsos.github.io/alisy.github.io/bianco/css/screen.css",
 		"/D/Usuarios/Fonso_s/Documents/GitHub/fonsos.github.io/alisy.github.io/css/personal.css",
+		"/D/Usuarios/Fonso_s/Documents/GitHub/fonsos.github.io/alisy.github.io/index.html",
 		"/D/Usuarios/Fonso_s/Documents/GitHub/fonsos.github.io/alisy.github.io/css/bootstrap.min.css",
 		"/D/Usuarios/Fonso_s/Documents/GitHub/fonsos.github.io/index.html",
 		"/D/Usuarios/Fonso_s/Documents/GitHub/fonsos.github.io/alisy.github.io/bianco/Bianco.html",
-		"/D/Usuarios/Fonso_s/Documents/GitHub/fonsos.github.io/alisy.github.io/bianco/css/screen.css",
 		"/D/Usuarios/Fonso_s/Documents/GitHub/fonsos.github.io/alisy.github.io/wix/6ab794bc-3060-4bb0-9ee4-31c61d759346_files/latin.css",
 		"/D/Usuarios/Fonso_s/Documents/GitHub/fonsos.github.io/2_0/index.html",
 		"/D/Usuarios/Fonso_s/Documents/GitHub/fonsos.github.io/fonsos.sublime-project",
@@ -349,7 +358,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -366,6 +375,28 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"dropdown",
+			"ta",
+			"modal",
+			"medium",
+			"\"card\"",
+			"edium\"",
+			"\"card\"",
+			"body",
+			"bottom-sheet",
+			"bottom-",
+			"modal-",
+			"modal-tigger",
+			"tooltip",
+			"paral",
+			"paralazz",
+			"mobile",
+			"mobile-demo",
+			"/font/",
+			"/font",
+			"back",
+			"/font",
+			"font",
 			"page",
 			"archive-text",
 			"archive-text-title",
@@ -471,29 +502,7 @@
 			"./",
 			"<script ",
 			"Demo 1_files",
-			"./Demo 1_files",
-			"img",
-			"port",
-			"h5",
-			"btn",
-			"lave",
-			"margin",
-			");",
-			"btn",
-			"but",
-			"port",
-			"images",
-			"footer",
-			"media",
-			"media		",
-			"map",
-			"media",
-			"50px",
-			"#219ab3",
-			"a {",
-			"a{",
-			"media",
-			"download"
+			"./Demo 1_files"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -501,6 +510,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"small",
+			"\"card medium\"",
+			"/fonts/",
 			"'",
 			"images",
 			"js",
@@ -520,88 +532,31 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "alisy.github.io/index.html",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7453,
+						"buffer_size": 22460,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2053,
-								2053
+								1550,
+								1550
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2
-						},
-						"translation.x": 0.0,
-						"translation.y": 920.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "alisy.github.io/bianco/Bianco by Christiane.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 47349,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2968,
-								2979
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1350.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "alisy.github.io/css/personal.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10726,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -617,30 +572,60 @@
 			"sheets":
 			[
 				{
-					"buffer": 3,
-					"file": "alisy.github.io/bianco/css/screen.css",
+					"buffer": 1,
+					"file": "css/custom.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 34032,
+						"buffer_size": 1544,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13827,
-								13760
+								472,
+								489
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": false
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 10737.0,
+						"translation.y": 285.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/materialize.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 181719,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								151156,
+								151161
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 125621.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -651,7 +636,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 35.0
 	},
 	"input":
 	{
@@ -677,7 +662,7 @@
 		"cols":
 		[
 			0.0,
-			0.489544346547,
+			0.579273327828,
 			1.0
 		],
 		"rows":
@@ -692,10 +677,10 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "fonsos.sublime-project",
+	"project": "Sempai.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -730,7 +715,7 @@
 	{
 	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 229.0,

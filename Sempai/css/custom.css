@@ -1,0 +1,130 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+/*Propias*/
+
+a {
+  color:#444;
+}
+
+body{
+  background-color: #D2F4fE
+}
+
+.card {
+  background-color: #03D7CB;
+}
+
+.color-salmon {
+  background-color: #F35C55 !important;
+}
+
+.color-azul-claro {
+  background-color: #D2F4fE !important;
+}
+
+.color-azul-medio {
+  background-color: #03D7CB !important;
+}
+
+.color-azul-oscuro {
+  background-color: #05B6C6 !important;
+}
+
+.black-text{
+  color: #333;
+}
+
+.carta-trans{
+  opacity: 40%!important;
+}
+
+.container {
+  width: 100%;
+}
+
+.text-color-salmon {
+  color: #F35C55 !important;
+}
+
+.text-color-azul-claro {
+  color: #D2F4fE !important;
+}
+
+.text-color-azul-medio {
+  color: #03D7CB !important;
+}
+
+.text-color-azul-oscuro {
+  color: #05B6C6 !important;
+}
+
+.parallax-container{
+  height:500px !important;
+}
+
+.parallax img{display:none;
+  width:100%;  
+}
+
+.slider, .slides {
+  background: transparent !important;
+}
+
+
+
+/*propias -FIN*/
+
+
+
+
+
+
+
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+
+.icon-block {
+  padding: 0 15px;
+}
+
+footer.page-footer {
+  margin: 0;
+}
