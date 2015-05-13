@@ -20,6 +20,15 @@ body{
   background-color: #03D7CB;
 }
 
+h6{
+  color: #F35C55;
+  font-weight: bold;
+}
+
+.indent{
+  text-indent: 15px;
+}
+
 .color-salmon {
   background-color: #F35C55 !important;
 }

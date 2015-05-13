@@ -172,11 +172,11 @@
 			}
 		},
 		{
-			"file": "alisy.github.io/bianco/Bianco by Christiane.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 47349,
-				"line_ending": "Unix"
+				"buffer_size": 13172,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -237,9 +237,7 @@
 	"expanded_folders":
 	[
 		"/D/Usuarios/Fonso_s/Documents/GitHub/fonsos.github.io",
-		"/D/Usuarios/Fonso_s/Documents/GitHub/fonsos.github.io/alisy.github.io/bianco/css",
-		"/D/Usuarios/Fonso_s/Documents/GitHub/fonsos.github.io/alisy.github.io/css",
-		"/D/Usuarios/Fonso_s/Documents/GitHub/fonsos.github.io/alisy.github.io/img"
+		"/D/Usuarios/Fonso_s/Documents/GitHub/fonsos.github.io/2_0"
 	],
 	"file_history":
 	[
@@ -349,7 +347,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -366,6 +364,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cook",
 			"page",
 			"archive-text",
 			"archive-text-title",
@@ -492,8 +491,7 @@
 			"#219ab3",
 			"a {",
 			"a{",
-			"media",
-			"download"
+			"media"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -520,7 +518,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -536,37 +534,38 @@
 						"selection":
 						[
 							[
-								2053,
-								2053
+								2034,
+								2034
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 920.0,
+						"translation.y": 1373.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "alisy.github.io/bianco/Bianco by Christiane.html",
+					"file": "index.html",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 47349,
+						"buffer_size": 13172,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2968,
-								2979
+								12200,
+								12200
 							]
 						],
 						"settings":
@@ -575,10 +574,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1350.0,
+						"translation.y": 11279.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -607,7 +606,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -643,7 +642,7 @@
 						"translation.y": 10737.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]

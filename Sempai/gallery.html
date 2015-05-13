@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Sempai - Galería</title>
+
+  <!-- CSS  -->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/custom.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!--<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">-->
+</head>
+<body>
+<!--nav-bar-->
+  <ul id="dropdown1" class="dropdown-content">    
+    <li><a href="past-events.html" class="color-azul-claro black-text">Eventos pasados</a></li>
+    <li><a href="activities.html" class="color-azul-medio black-text">Actividades</a></li>
+    <li class="divider"></li>
+    <li><a href="gallery.html" class="color-azul-oscuro black-text">Galería</a></li>
+    <li><a href="#who" class="color-azul-medio black-text modal-trigger">¿Quienes sómos?</a></li>
+  </ul>
+  <nav class="color-salmon" role="navigation">
+    <div class="nav-wrapper container navbar-fixed">
+      <a id="logo-container" href="index.html" class="brand-logo">Sempai</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" data-constrainwidth="false" href="#!" data-activates="dropdown1">Menú<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+
+      <ul class="side-nav color-salmon" id="nav-mobile">
+        <li><h3>Menú</h3></li>
+        <li><a href="past-events.html" class="color-azul-claro black-text">Eventos pasados</a></li>
+        <li><a href="activities.html" class="color-azul-medio black-text">Actividades</a></li>
+        <li class="divider"></li>
+        <li><a href="gallery.html" class="color-azul-oscuro black-text">Galería</a></li>
+        <li><a href="#who" class="color-azul-medio black-text modal-trigger">¿Quienes sómos?</a></li>
+      </ul>
+    </div>
+  </nav>
+<!--nav-bar END-->
+
+<!--Primera Sección - Paralax-->
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br>
+        <div class="row">
+          <div class="col s12 m3"><br></div>
+          <div class="col s12 m6">
+            <div class="card color-azul-medio carta-trans z-depth-5">
+              <div class="card-content white-text">
+                <h1 class="header center teal-text text-color-salmon">Galería</h1>
+                <div class="row center">
+                  <h4 class="header col s12 text-color-salmon">Imágenes de todos los eventos en los que hemos participado.</h4>
+                </div>                
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m3"><br></div>
+        </div>
+        <br>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/Logo_carpas_fondo.jpg" style="width=100%"></div>
+  </div>
+<!--Primera Sección END-->
+
+<!--Segunda Sección - Tarjetas - Proximos Eventos-->
+  <div class="container">
+    <div class="section">
+      <div class="row center">
+          <h3 class="header col s12 text-color-salmon">Disfruta tanto como nosotros</h3>
+      </div>
+      <!--   Tarjetas proximos eventos   -->
+      <div class="row container">
+        <img class="materialboxed" width="150" height="150" src="img/ofice.jpg">
+        <img class="materialboxed" width="150" height="150" src="img/ofice.jpg">
+        <img class="materialboxed" width="150" height="150" src="img/ofice.jpg">
+        <img class="materialboxed" width="150" height="150" src="img/ofice.jpg">
+        <img class="materialboxed" width="150" height="150" src="img/ofice.jpg">
+        <img class="materialboxed" width="150" height="150" src="img/ofice.jpg">
+        <img class="materialboxed" width="150" height="150" src="img/ofice.jpg">
+        <img class="materialboxed" width="150" height="150" src="img/ofice.jpg">
+        <img class="materialboxed" width="150" height="150" src="img/ofice.jpg">
+        <img class="materialboxed" width="150" height="150" src="img/ofice.jpg">
+      </div>
+    </div>
+  </div>
+<!--Segunda Sección END-->
+
+<!--Botón-->
+  <div class="fixed-action-btn" style="bottom: 24px; right: 24px;">
+    <a class=" waves-effect waves-circle btn-floating btn-large color-salmon tooltipped btn"  data-tooltip="+ info" data-position="left">
+      <i class="large mdi-content-add"></i>
+    </a>
+    <ul>
+      <li>
+        <a class="waves-effect waves-circle btn-floating color-azul-oscuro darken-1 tooltipped btn modal-trigger"  data-tooltip="Redes Sociales" data-position="left"  data-target="rrss">
+          <i class="large mdi-editor-format-quote"></i>
+        </a>
+      </li>
+      <!--<li>
+        <a class="waves-effect waves-circle btn-floating color-azul-oscuro tooltipped btn modal-trigger disabled"  data-tooltip="Agrega fotos" data-position="left"  data-target="adjunta">
+          <i class="large mdi-editor-attach-file"></i>
+        </a>
+      </li>-->  
+      <li>
+        <a class=" waves-effect waves-circle btn-floating color-azul-oscuro tooltipped btn modal-trigger disabled"  data-tooltip="Contacta con nosotros" data-position="left" data-target="contact">
+          <i class="large mdi-editor-mode-edit"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+<!--Botón END-->
+
+<!--Modals-->
+  <!-- Modal Structure-->
+
+  <!-- MODAL - Redes Sociales--> 
+    <div id="rrss" class="modal bottom-sheet" style="display: block">
+      <div class="modal-content">
+        <h4>Estamos en las redes socales:</h4>
+        <ul class="collection">
+          <li class="collection-item avatar">
+            <a href="https://www.facebook.com/SempaiMalaga" target="_blank">
+              <img src="img/rrss/FB-f-Logo__blue_72.png" alt="Facebook Logo" class="circle">
+              <span class="title">Facebook</span>
+              <p>/SempaiMalaga
+              </p>
+              <i class="mdi-content-send secondary-content"></i>
+            </a>
+          </li>
+          <li class="collection-item avatar">
+            <a href="https://twitter.com/SempaiMalaga" target="_blank">
+              <img src="img/rrss/twitter-bird-white-on-blue.png" alt="Twitter Logo" class="circle">
+              <span class="title">Twitter</span>
+              <p>@SempaiMalaga
+              </p>
+              <i class="mdi-content-send secondary-content"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  <!-- MODAL - Redes Sociales END-->
+
+  <!-- MODAL - Quienes Somos--> 
+    <div id="who" class="modal modal-fixed-footer">
+      <div class="modal-content">
+        <h4>Quienes somos:</h4>
+        <p>Sempai es una asociación juvenil malagueña cuyos objetivos son la difusión de la cultura oriental y el ocio alternativo entre los jóvenes.<br>Somos un grupo de amigos que nos gusta divertirnos de manera sana y saludable, queremos hacer llegar el mensaje de que hay maneras muy diferentes de divertirse.<br>Desde nuestra asociación realizamos y participamos en eventos enfocados al entretenimiento y a fomentar el espíritu del trabajo en equipo.<br>Nos gusta pasarlo bien en compañía de nuestras amistades y queremos compartir ese sentimiento con los demás jóvenes acercándolos al mundo del cómic, el anime y los videojuegos.</p>
+        <h5>¿Por qué nos llamamos así?</h5>
+        <p>Sempai (先輩) es un término informal japonés que se refiere al miembro de mayor experiencia dentro de un club o una asociación que ofrece su asistencia, amistad y consejo al miembro de recién ingreso o sin experiencia, conocido como kōhai.<br><br>Elegimos este nompre por el hecho de que realmente todos somos iguales y pertenecemos a un mismo colectivo con intereses comunes, desarrollamos las actividades que nos gustan a todos y hacemos que los participantes se lo pasen bien.</p>
+
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">¡Listo!</a>
+      </div>
+    </div>
+  <!-- MODAL - Quienes Somos END-->
+
+  <!-- MODAL - Contacto--> 
+    <div id="contact" class="modal modal-fixed-footer">
+      <div class="modal-content">
+        <h4>Contacto</h4>
+        <p>Por el momento envía un correo a <a class="text-color-azul-oscuro" href="mailto:info.sempai@gmail.com"  target="_blank">info.sempai@gmail.com</a> y te responderemos lo antes posible.</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Listo</a>
+      </div>
+    </div>
+  <!-- MODAL - Contacto END-->
+<!--Modals END-->
+
+<!-- Modal Trigger
+  <div class="row center">
+        <button data-target="modal1" class="btn modal-trigger">Modal</button>
+      </div>
+
+  <!-- Modal Structure 
+  <div id="modal1" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+    </div>
+  </div>
+  -->
+
+<!--Footer-->
+  <footer class="page-footer color-azul-oscuro  ">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">Sempai es una asociación juvenil malagueña cuyos objetivos son la difusión de la cultura oriental y el ocio alternativo entre los jóvenes.</p>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made with <a class="white-text" href="http://materializecss.com">Materialize</a> by <a class="white-text" href="http://fonsos.com">Fonso_s</a>.
+      </div>
+    </div>
+  </footer>
+<!--Footer END-->
+
+<!--  Scripts-->
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script type="text/javascript" id="cookiebanner"src="js/cookiebanner.min.js"></script>
+
+<!--END-->
+</body>
+</html>
