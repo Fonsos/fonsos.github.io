@@ -29,6 +29,14 @@ h6{
   text-indent: 15px;
 }
 
+/*Galería*/
+
+.materialboxed{
+    position: relative;
+    float: left;
+}
+/*Galería END*/
+
 .color-salmon {
   background-color: #F35C55 !important;
 }
@@ -47,6 +55,11 @@ h6{
 
 .black-text{
   color: #333;
+}
+
+nav{
+  position: fixed;
+  z-index: 1000;
 }
 
 .carta-trans{
