@@ -237,7 +237,8 @@
 	"expanded_folders":
 	[
 		"/D/Usuarios/Fonso_s/Documents/GitHub/fonsos.github.io",
-		"/D/Usuarios/Fonso_s/Documents/GitHub/fonsos.github.io/2_0"
+		"/D/Usuarios/Fonso_s/Documents/GitHub/fonsos.github.io/2_0",
+		"/D/Usuarios/Fonso_s/Documents/GitHub/fonsos.github.io/pages"
 	],
 	"file_history":
 	[
@@ -574,7 +575,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 11279.0,
+						"translation.y": 468.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
